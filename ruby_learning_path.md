@@ -27,7 +27,8 @@ The aim here is to give you a path you might take to structure your development 
 - Great site to practice coding ruby via code **‘katas’**, its called [codewars.com](https://www.codewars.com/).
 - Alternative to codewars is [exercism.io](http://exercism.io/) which has a similar theme to codewars but it does not use an online IDE. 
 - [IRB](http://ruby-doc.org/stdlib-2.0.0/libdoc/irb/rdoc/IRB.html) (_'interactive ruby'_) - this is a tool to interactively execute ruby code in the command line. Type `irb` in the terminal after you have installed ruby to activate this. It's very useful for testing small snippets of code in isolation.
-- [slightly more advanced book](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0321721330&pd_rd_r=2C15FQME1E5X744FGV1Z&pd_rd_w=h0K0z&pd_rd_wg=RqEfU&psc=1&refRID=2C15FQME1E5X744FGV1Z) which teaches you how to write robust Object Oriented ruby code. This is a highly recommened read as are all books by Sandy Metz
+- [slightly more advanced book](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0321721330&pd_rd_r=2C15FQME1E5X744FGV1Z&pd_rd_w=h0K0z&pd_rd_wg=RqEfU&psc=1&refRID=2C15FQME1E5X744FGV1Z) which teaches you how to write robust Object Oriented ruby code. This is a highly recommened read as are all books by Sandy Metz on Ruby. You also might see this book refered to as POORD by the ruby community. This is also a great book to read to improve your code in general.
+- more lighthearted look at ruby in this [book for ruby beginners](https://poignant.guide/book/chapter-1.html).
 
 ### Step 3: Ruby Development Tools:
 - Integrated Development Environments (IDEs) and Text editors – Pick one, I like [Visual Studio Code](https://code.visualstudio.com/), others include: 
