@@ -1,23 +1,23 @@
 ## Learning Path for Ruby Programming
 
-What follows is a list of resources collated into a ‘learning path’ for Developers to upskill in terms of Ruby programming. 
+What follows is a list of resources collated into a ‘learning path’ for Developers to upskill in Ruby programming. 
 
-Resources are laid out in steps which follow on from each other. However, it is not meant as a directive to follow exactly in this order. Similarly, there is no need to go trhough every resource mentioned here, but rather this is intended as a guide to give you a bit of context as to what recource to look at as you develop more skills. 
+Resources are laid out in steps which follow on from each other. However, it is not meant as a directive to follow exactly in the order laid out here. Similarly, there is no need to go trhough every resource mentioned here. Rather, this is intended as a guide to give you a bit of context as to what recource to look at as you develop more skills. 
 
-The aim here is to give you a path you might take to structure your development as a ruby programmer. If you’re not feeling some of the resources here then please feel free to replace / supplement them with things from elsewhere. Just google any of the Keywords, highlighted in **bold**.
+The aim here is to give you a path you might take to structure your development as a ruby programmer. If you’re not feeling some of the resources here then please feel free to replace / supplement them with things from elsewhere.
 
 ### Step 0: Prerequisites:
-- UNIX/LINUX Command line – no need to master this but it is pretty much a given in Ruby programming that you are familiar with this:
-  - Pluralsight course **[here](https://app.pluralsight.com/library/courses/meet-command-line/table-of-contents)**
-  - Good and short **[book](https://www.learnenough.com/command-line-tutorial)** on this.
+- UNIX/LINUX Command line – no need to master this, but it is pretty much a given in Ruby programming that you are familiar with this:
+  - Pluralsight course on the Unix command line [here](https://app.pluralsight.com/library/courses/meet-command-line/table-of-contents)
+  - Good and short [book](https://www.learnenough.com/command-line-tutorial) on this.
   - Git most of you should be familiar with this but for the uninitiated here is a [Pluralsight](https://www.pluralsight.com/courses/git-fundamentals) course – and here is a short [book](https://www.learnenough.com/git-tutorial) to get you started.
-  - For extra points have a look at this course on [Test Driven Development](https://www.pluralsight.com/courses/test-driven-development-big-picture) (**TDD**)– you won’t be doing this straight away but it make sense to understand this mind-set from the beginning.
+  - For extra points have a look at this course on [Test Driven Development](https://www.pluralsight.com/courses/test-driven-development-big-picture) (TDD)– you won’t be doing this straight away but it make sense to understand this mind-set from the beginning.
 
 ### Step 1: Installing Ruby:
-- **WARNING:** OSX already has a version of ruby installed – but beware it is not advised that you rely on this version, as OSX uses it internally to organise things, so relying on it can be problematic.
+- **WARNING:** OSX already has a version of ruby installed – but beware - it is not advised that you rely on this version, as OSX uses it internally to organise things, so relying on it can be problematic.
   - Instead follow the steps here to install the ruby version manager [rbenv](https://github.com/rbenv/rbenv#homebrew-on-macos).
   - Install ruby versions onto you Mac by following this [link](https://github.com/rbenv/rbenv#installing-ruby-versions).
-  - Other version managers include [RVM]https://rvm.io/ and [chruby](https://github.com/postmodern/chruby).
+  - Other version managers include [RVM](https://rvm.io/) and [chruby](https://github.com/postmodern/chruby).
 
 ### Step 2: Basic Ruby Programming:
 - Very quick [tutorial](https://www.youtube.com/watch?v=Dji9ALCgfpM) to familiarise yourself with the basics of the language.
@@ -59,7 +59,7 @@ The aim here is to give you a path you might take to structure your development 
   - [Rake](https://ruby.github.io/rake/), short for _Ruby + make_ ([Make](https://en.wikipedia.org/wiki/Make_(software)) being a general build tool for [Unix](https://en.wikipedia.org/wiki/Unix) / [Unix-like](https://en.wikipedia.org/wiki/Unix-like) Operating Sysytems). 
   - Rake is a build automation tool that is used to perform tasks on code (e.g. things like [minifying](https://en.wikipedia.org/wiki/Minification_(programming)) Javascript or running automated tests). It is used heavily in the Rails frame work for things like database migrations. It might be best to look into this in the context of rails (see step 3).
  
-- testing Frameworks:
+- Testing Frameworks:
   - Great course on testing ruby / rails apps on Pluralsight [here](https://app.pluralsight.com/library/courses/test-driven-rails-rspec-capybara-cucumber/table-of-contents). This course is really good, I highly recommend this.
   - [Minitest](http://ruby-doc.org/stdlib-2.0.0/libdoc/minitest/rdoc/MiniTest.html) – default ruby test framework which comes as part of it’s standard library (since ruby 1.9).
   - [RSpec](http://rspec.info/) – the de-facto ruby testing framework for TDD.
@@ -68,7 +68,7 @@ The aim here is to give you a path you might take to structure your development 
 
 
 ### Step 4: Web frameworks / web programming:
-- [Sinatra](http://sinatrarb.com/) this is a very lightweight web framework that is a good place to start in terms of ruby web programming.
+- [Sinatra](http://sinatrarb.com/) this is a very lightweight web framework that is a good place to start for ruby web programming.
   - Basic tutorial [here](https://www.sitepoint.com/just-do-it-learn-sinatra-i/)
   - More comprehensive on Sinatra book [here](http://sinatra-org-book.herokuapp.com/).
   - youtube [tutorial](https://www.youtube.com/watch?v=YIqEQW1alNw) on building a simple full stack web app in Sinatra.
