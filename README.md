@@ -10,7 +10,7 @@ The aim here is to give you a path you might take to structure your development 
 - UNIX/LINUX Command line – no need to master this, but it is pretty much a given in Ruby programming that you are familiar with this:
   - Pluralsight course on the Unix command line [here](https://app.pluralsight.com/library/courses/meet-command-line/table-of-contents)
   - Good and short [book](https://www.learnenough.com/command-line-tutorial) on this.
-  - Git most of you should be familiar with this but for the uninitiated here is a [Pluralsight](https://www.pluralsight.com/courses/git-fundamentals) course – and here is a short [book](https://www.learnenough.com/git-tutorial) to get you started.
+  - Git for version control - most of you should be familiar with this but for the uninitiated here is a [Pluralsight](https://www.pluralsight.com/courses/git-fundamentals) course – and here is a short [book](https://www.learnenough.com/git-tutorial) to get you started.
   - For extra points have a look at this course on [Test Driven Development](https://www.pluralsight.com/courses/test-driven-development-big-picture) (TDD)– you won’t be doing this straight away but it make sense to understand this mind-set from the beginning.
 
 ### Step 1: Installing Ruby:
