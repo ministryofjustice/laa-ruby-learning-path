@@ -33,7 +33,6 @@ The aim here is to give you a path you might take to structure your development 
 - You might want to subscribe to the [Ruby Weekly](https://rubyweekly.com/) mailing list as a way to keep up-to-date with what's happening in the Ruby world. You'll get an email once a week with a few links to interesting articles on Ruby, Rails and related technologies.
 
 ### Step 3: Ruby Development Tools:
-
 - Integrated Development Environments (IDEs) and Text editors – Pick one, I like [Visual Studio Code](https://code.visualstudio.com/), others include: 
   - [Ruby Mine IDE](https://www.jetbrains.com/ruby/) – this is a fully featured Ruby / Rails IDE with autocomplete etc. note this is not an open source product and requires a licence to use. But it does have a trial period.
   - [Atom](https://atom.io/) – an open source text editor built by github – has packages you can install that make Ruby programming easier
@@ -76,7 +75,6 @@ The aim here is to give you a path you might take to structure your development 
   - [factory_bot](https://github.com/thoughtbot/factory_bot) (Note: until fairly recently this was called _factory_girl_, it is referred to by this name in some of the resources). Can be used to mock objects to create test data in Ruby apps. More info [here](https://semaphoreci.com/community/tutorials/working-effectively-with-data-factories-using-factorybot).
   - [Cucumber](https://cucumber.io/) is a BDD ([Behaviour Driven Development](https://inviqa.com/blog/bdd-guide)) acceptance testing framework you can in conjunction with [Capybara](https://github.com/teamcapybara/capybara) (Think Selenium if you’re from Java) to run automated browser tests. Note: it can be used with selenium if needed see [here](https://github.com/teamcapybara/capybara#drivers). You set up [feature files](https://github.com/cucumber/cucumber/wiki/Feature-Introduction) using the ([Gherkin Language](https://github.com/cucumber/cucumber/wiki/Gherkin)) which is used to describe 'journeys' through you application, which you then test your app against these. Introduction to this kind of testing [here](https://www.youtube.com/watch?v=lC0jzd8sGIA). Some tips on writing better feature files with Gherkin [here](http://www.bbc.co.uk/blogs/internet/entries/ff14236d-098a-3565-b678-ff4ba5776a5f).
 
-
 ### Step 4: Web frameworks / web programming:
 - [Sinatra](http://sinatrarb.com/) this is a very lightweight web framework that is a good place to start for Ruby web programming.
   - Basic tutorial [here](https://www.sitepoint.com/just-do-it-learn-sinatra-i/)
@@ -103,8 +101,6 @@ The aim here is to give you a path you might take to structure your development 
 
 ### Step 5: supplementary tech:
 - [Postgresql](https://www.postgresql.org/) is the main database used in production Ruby apps – [Pluralsight](https://app.pluralsight.com/library/courses/postgresql-getting-started/table-of-contents) 
-
-
 
 ### Step 6: More advanced books:
 - The [rails 5 way](https://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0134657675/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=obiefernandez-20&linkId=5afcff9a3922096da60b0d03402052d5) – really in-depth look at Rails.
