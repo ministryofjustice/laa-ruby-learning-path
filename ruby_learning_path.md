@@ -16,23 +16,24 @@ The aim here is to give you a path you might take to structure your development 
 ### Step 1: Installing Ruby:
 - **WARNING:** OSX already has a version of Ruby installed – but beware - it is not advised that you rely on this version, as OSX uses it internally to organise things, so relying on it can be problematic.
   - Instead follow the steps here to install the Ruby version manager [rbenv](https://github.com/rbenv/rbenv#homebrew-on-macos).
-  - Install ruby versions onto you Mac by following this [link](https://github.com/rbenv/rbenv#installing-ruby-versions).
+  - Install Ruby versions onto you Mac by following this [link](https://github.com/rbenv/rbenv#installing-ruby-versions).
   - Other version managers include [RVM](https://rvm.io/) and [chruby](https://github.com/postmodern/chruby).
   - Course on setting up a linux development server for Ruby/Ruby on Rails development [here](https://app.pluralsight.com/library/courses/building-linux-server-for-ruby-on-rails/description).
 
 ### Step 2: Basic Ruby Programming:
 - Very quick [tutorial](https://www.youtube.com/watch?v=Dji9ALCgfpM) to familiarise yourself with the basics of the language.
 - Basic control flow, variables, data-structures on [Pluralsight](https://app.pluralsight.com/library/courses/ruby-fundamentals/table-of-contents).
-- More on Object orientated ruby on [Pluralsight](https://app.pluralsight.com/library/courses/ruby-beyond-the-basics/table-of-contents).
-- Book on the basics of ruby (has lots of good exercises in it) called [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/).
+- More on Object orientated Ruby on [Pluralsight](https://app.pluralsight.com/library/courses/ruby-beyond-the-basics/table-of-contents).
+- Book on the basics of Ruby (has lots of good exercises in it) called [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/).
 - Great site to practice coding Ruby via code **‘katas’**, its called [codewars.com](https://www.codewars.com/).
 - Alternative to codewars is [exercism.io](http://exercism.io/) which has a similar theme to codewars but it does not use an online IDE. 
-- [IRB](http://ruby-doc.org/stdlib-2.0.0/libdoc/irb/rdoc/IRB.html) (_'interactive ruby'_) - this is a tool to interactively execute Ruby code in the command line. Type `irb` in the terminal after you have installed Ruby to activate this. It's very useful for testing small snippets of code in isolation.
-- [slightly more advanced book](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0321721330&pd_rd_r=2C15FQME1E5X744FGV1Z&pd_rd_w=h0K0z&pd_rd_wg=RqEfU&psc=1&refRID=2C15FQME1E5X744FGV1Z) which teaches you how to write robust Object Oriented ruby code. This is a highly recommened read as are all books by Sandy Metz on Ruby. You also might see this book refered to as POORD by the Ruby community. This is also a great book to read to improve your code in general.
+- [IRB](http://ruby-doc.org/stdlib-2.0.0/libdoc/irb/rdoc/IRB.html) (_'Interactive Ruby'_) - this is a tool to interactively execute Ruby code in the command line. Type `irb` in the terminal after you have installed Ruby to activate this. It's very useful for testing small snippets of code in isolation.
+- [slightly more advanced book](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0321721330&pd_rd_r=2C15FQME1E5X744FGV1Z&pd_rd_w=h0K0z&pd_rd_wg=RqEfU&psc=1&refRID=2C15FQME1E5X744FGV1Z) which teaches you how to write robust Object Oriented Ruby code. This is a highly recommened read as are all books by Sandy Metz on Ruby. You also might see this book refered to as POORD by the Ruby community. This is also a great book to read to improve your code in general.
 - more lighthearted look at Ruby in this [book for Ruby beginners](https://poignant.guide/book/chapter-1.html).
 - You might want to subscribe to the [Ruby Weekly](https://rubyweekly.com/) mailing list as a way to keep up-to-date with what's happening in the Ruby world. You'll get an email once a week with a few links to interesting articles on Ruby, Rails and related technologies.
 
 ### Step 3: Ruby Development Tools:
+
 - Integrated Development Environments (IDEs) and Text editors – Pick one, I like [Visual Studio Code](https://code.visualstudio.com/), others include: 
   - [Ruby Mine IDE](https://www.jetbrains.com/ruby/) – this is a fully featured Ruby / Rails IDE with autocomplete etc. note this is not an open source product and requires a licence to use. But it does have a trial period.
   - [Atom](https://atom.io/) – an open source text editor built by github – has packages you can install that make Ruby programming easier
@@ -60,7 +61,7 @@ The aim here is to give you a path you might take to structure your development 
   - Use the [RubyGems website](https://rubygems.org/) to find documentation on individual gems you’re using in your application.
 
 - Debugging:
-  - used [Pry](http://pryrepl.org/) which is a command line tool to perform debugging of ruby apps. It can also be used as an alternative to the 'IRB' in-line ruby runtime that comes as standard in ruby installations (see step 4 bullet-point 6). 
+  - used [Pry](http://pryrepl.org/) which is a command line tool to perform debugging of Ruby apps. It can also be used as an alternative to the 'IRB' in-line Ruby runtime that comes as standard in Ruby installations (see step 2 bullet-point 7). 
   - There are also integrations in text editors like [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and [Ruby Mine](https://www.jetbrains.com/help/ruby/debugging-code.html) which perform similar functions.
   - an alternative to Pry is [byebug](https://github.com/deivid-rodriguez/byebug).
  
@@ -69,7 +70,7 @@ The aim here is to give you a path you might take to structure your development 
   - Rake is a build automation tool that is used to perform tasks on code (e.g. things like [minifying](https://en.wikipedia.org/wiki/Minification_(programming)) Javascript or running automated tests). It is used heavily in the Rails frame work for things like database migrations. It might be best to look into this in the context of Rails (see step 3).
  
 - Testing Frameworks:
-  - Great course on testing Ruby / rails apps on Pluralsight [here](https://app.pluralsight.com/library/courses/test-driven-rails-rspec-capybara-cucumber/table-of-contents). This course is really good, I highly recommend this.
+  - Great course on testing Ruby / Rails apps on Pluralsight [here](https://app.pluralsight.com/library/courses/test-driven-rails-rspec-capybara-cucumber/table-of-contents). This course is really good, I highly recommend this.
   - [Minitest](http://ruby-doc.org/stdlib-2.0.0/libdoc/minitest/rdoc/MiniTest.html) – default Ruby test framework which comes as part of it’s standard library (since Ruby 1.9).
   - [RSpec](http://rspec.info/) – the de-facto Ruby testing framework for TDD.
   - [factory_bot](https://github.com/thoughtbot/factory_bot) (Note: until fairly recently this was called _factory_girl_, it is referred to by this name in some of the resources). Can be used to mock objects to create test data in Ruby apps. More info [here](https://semaphoreci.com/community/tutorials/working-effectively-with-data-factories-using-factorybot).
@@ -84,6 +85,7 @@ The aim here is to give you a path you might take to structure your development 
   - Really good [book on Sinatra](https://www.amazon.co.uk/Jump-Start-Sinatra-Speed-Weekend-ebook/dp/B00TJ6UY8O/ref=sr_1_1?ie=UTF8&qid=1525193528&sr=8-1&keywords=Jump+Start+Sinatra&dpID=511OQH7nxGL&preST=_SX342_QL70_&dpSrc=srch), though you have to pay for it is very good, and I would recommend checking it out.
  
 - [Ruby on Rails](https://rubyonrails.org/) (Rails for short) this is more of a ‘all bells and whistles’ web framework that allows you to develop web apps rapidly. It also has modules for things like [batch jobs](http://guides.rubyonrails.org/active_job_basics.html), [emails](http://guides.rubyonrails.org/action_mailer_basics.html) and [Restful APIs](http://edgeguides.rubyonrails.org/api_app.html).
+  - - [Railscasts](http://railscasts.com/) on youtube called [Railscasts Reloaded](https://www.youtube.com/user/RailscastsReloaded/videos) though some of the videos here are a few years old it is a great resource, which has short videos that explain very many of the features of Rails in a really accessible way. It is well worth a look, there is also an archive of the videos [here on youtube](https://www.youtube.com/user/RailscastsReloaded/videos).
   - Guide to Installing Rails [here](http://installrails.com/steps/configure_git).
   - Very good and free Rails [tutorial book](https://www.railstutorial.org/book).
   - [Pluralsight course](https://app.pluralsight.com/library/courses/ruby-rails-4-getting-started/table-of-contents) on Rails 4 (note this is on a slightly earlier version of Rails but the fundamentals are the same.)
