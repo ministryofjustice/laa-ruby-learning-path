@@ -29,6 +29,7 @@ The aim here is to give you a path you might take to structure your development 
 - [IRB](http://ruby-doc.org/stdlib-2.0.0/libdoc/irb/rdoc/IRB.html) (_'interactive ruby'_) - this is a tool to interactively execute Ruby code in the command line. Type `irb` in the terminal after you have installed Ruby to activate this. It's very useful for testing small snippets of code in isolation.
 - [slightly more advanced book](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0321721330&pd_rd_r=2C15FQME1E5X744FGV1Z&pd_rd_w=h0K0z&pd_rd_wg=RqEfU&psc=1&refRID=2C15FQME1E5X744FGV1Z) which teaches you how to write robust Object Oriented ruby code. This is a highly recommened read as are all books by Sandy Metz on Ruby. You also might see this book refered to as POORD by the Ruby community. This is also a great book to read to improve your code in general.
 - more lighthearted look at Ruby in this [book for Ruby beginners](https://poignant.guide/book/chapter-1.html).
+- You might want to subscribe to the [Ruby Weekly](https://rubyweekly.com/) mailing list as a way to keep up-to-date with what's happening in the Ruby world. You'll get an email once a week with a few links to interesting articles on Ruby, Rails and related technologies.
 
 ### Step 3: Ruby Development Tools:
 - Integrated Development Environments (IDEs) and Text editors – Pick one, I like [Visual Studio Code](https://code.visualstudio.com/), others include: 
@@ -41,12 +42,16 @@ The aim here is to give you a path you might take to structure your development 
   - Pluralsight course on [creating your own Ruby gems](https://app.pluralsight.com/library/courses/building-ruby-gems/table-of-contents).
   - [click here](http://awesome-ruby.com/) for a collated directory of tools / gems for pretty much any use case you can think of. This is really cool and you should check it out.
   - [rubygems.com](https://rubygems.org/) is the main repository that bundler uses to install gem dependencies in projects. Most of the source code for these hosted on [github](https://github.com/).   
+  - It would be good practice to create a simple Ruby Gem yourself to get a better understanding of how they work.
+    - [This link](https://guides.rubygems.org/make-your-own-gem/) will guide you through the creation of a Gem. 
  
 - [Bundler](https://bundler.io/) is used to manage dependencies, in conjunction with RubyGems (think Maven if you’re coming from a Java background, it uses Gemfiles which are the equivalent of a Maven pom.xml file). 
   - [Gems](https://en.wikipedia.org/wiki/RubyGems) are what Ruby packages are called (think .jars), they need to be installed and then ‘required’ into your project, in a similar fashion to Java imports.
   - bundler uses [`Gemfiles`](https://bundler.io/v1.5/gemfile.html) which allow you to declare your projects dependencies in an easy syntax. You can then install declared dependencies using `bundle install` on the command line in your project root.
   - Bundler also creates a [`Gemfile.lock`](https://bundler.io/v1.3/rationale.html#checking-your-code-into-version-control) snapshot file which declares the exact versions of dependencies that you know work for your application. This should be checked into source control along with your `Gemfile`.
   - [here is a more in-depth discussion](https://andre.arko.net/2015/04/28/how-does-bundler-work-anyway/) of what bundler is actually doing.
+  - You can also use Bundler to simplify the creation of RubyGems, follow [this link](https://bundler.io/v1.12/guides/creating_gem.html) to find out more.
+  - A note on using Bundler: gems installed by Bundler will affect gems you install using `gem install`. Bundler effectively creates a sandboxed environment. Using Bundler to manage Gems means that you shouldn't run into Gem version conflicts across projects as the Gems are localized to a given project.
 
 - Documentation - Ruby is an extremely well documented language. Find the code language docs here:
   - Ruby [core library](https://ruby-doc.org/core-2.5.0/).
@@ -82,6 +87,7 @@ The aim here is to give you a path you might take to structure your development 
   - Very good and free Rails [tutorial book](https://www.railstutorial.org/book).
   - [Pluralsight course](https://app.pluralsight.com/library/courses/ruby-rails-4-getting-started/table-of-contents) on Rails 4 (note this is on a slightly earlier version of Rails but the fundamentals are the same.)
   - Really good [Udemy course](https://www.udemy.com/professional-rails-5-development-course/) (Note have to pay about a £10 to access this course, google for a voucher as the quoted prices are far higher than what you actually need to pay).
+  - A comprehensive book on Rails development in [Rails 5](https://pragprog.com/book/rails51/agile-web-development-with-rails-5-1)
  
 - [Templating engines](https://en.wikipedia.org/wiki/Web_template_system ) which compile to HTML (basically JSP / JSF if you’re thinking in Java) can be used with Rails or Sinatra if you install the correct gems.
   - [Slim](http://slim-lang.com/)
