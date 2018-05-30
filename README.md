@@ -41,7 +41,7 @@ The aim here is to give you a path you might take to structure your development 
 - Package management in Ruby is done with Ruby Gems.
   - Info on [what gems are and what you can do with them](https://guides.rubygems.org/what-is-a-gem/).
   - Pluralsight course on [creating your own Ruby gems](https://app.pluralsight.com/library/courses/building-ruby-gems/table-of-contents).
-  - [click here](http://awesome-ruby.com/) for a collated directory of tools / gems for pretty much any use case you can think of. This is really cool and you should check it out.
+  - [click here](http://awesome-ruby.com/) for a collated directory of tools / gems for pretty much any use case you can think of. This is really cool and you should check it out. A similar alternative site to look for packages and gems is [ruby-toolbox](https://ruby-toolbox.com). This site is very nicely laid out and easy to use.
   - [rubygems.com](https://rubygems.org/) is the main repository that bundler uses to install gem dependencies in projects. Most of the source code for these hosted on [github](https://github.com/).   
   - It would be good practice to create a simple Ruby Gem yourself to get a better understanding of how they work.
     - [This link](https://guides.rubygems.org/make-your-own-gem/) will guide you through the creation of a Gem. 
