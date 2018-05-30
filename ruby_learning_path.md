@@ -18,6 +18,7 @@ The aim here is to give you a path you might take to structure your development 
   - Instead follow the steps here to install the Ruby version manager [rbenv](https://github.com/rbenv/rbenv#homebrew-on-macos).
   - Install ruby versions onto you Mac by following this [link](https://github.com/rbenv/rbenv#installing-ruby-versions).
   - Other version managers include [RVM](https://rvm.io/) and [chruby](https://github.com/postmodern/chruby).
+  - Course on setting up a linux development server for Ruby/Ruby on Rails development [here](https://app.pluralsight.com/library/courses/building-linux-server-for-ruby-on-rails/description).
 
 ### Step 2: Basic Ruby Programming:
 - Very quick [tutorial](https://www.youtube.com/watch?v=Dji9ALCgfpM) to familiarise yourself with the basics of the language.
@@ -96,11 +97,11 @@ The aim here is to give you a path you might take to structure your development 
 - [Rack](https://rack.github.io/) – this is the base package that almost all Ruby web frameworks are built around, it creates a common interface to allow Ruby frameworks to interact with webservers more easily. You might not need to know the ins and outs of this but if you’re interested here is a [Pluralsight](https://app.pluralsight.com/library/courses/ruby-building-web-apps-rack/table-of-contents) course that will teach you more about it and how it integrates with frameworks like Sinatra and Rails.
 
 - Micro-services / apis:
-  - [Grape](https://github.com/ruby-grape/grape) is a good choice to write microservices in Ruby it's a lightweight framework to write Ruby APIs, it's not as bare as Sinatra but it adds some useful features (especially params) without being as a heavyweight a framework as Rails.
+  - [Grape](https://github.com/ruby-grape/grape) is a good choice to write microservices in Ruby. It's a lightweight framework to write Ruby APIs, it's not as bare-bones as Sinatra but it adds some useful features (especially params) without being as a heavyweight a framework as Rails.
 
 ### Step 5: supplementary tech:
-- [Postgresql](https://www.postgresql.org/) is the main database used in production Ruby apps – [Pluralsight](https://app.pluralsight.com/library/courses/postgresql-getting-started/table-of-contents) course on this
-[Setting up a Ruby on Rails on linux dev environment](https://app.pluralsight.com/library/courses/building-linux-server-for-ruby-on-rails/description).
+- [Postgresql](https://www.postgresql.org/) is the main database used in production Ruby apps – [Pluralsight](https://app.pluralsight.com/library/courses/postgresql-getting-started/table-of-contents) 
+
 
 
 ### Step 6: More advanced books:
