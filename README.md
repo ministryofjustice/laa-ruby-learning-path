@@ -36,7 +36,7 @@ The aim here is to give you a path you might take to structure your development 
 - Integrated Development Environments (IDEs) and Text editors – Pick one, I like [Visual Studio Code](https://code.visualstudio.com/), others include: 
   - [Ruby Mine IDE](https://www.jetbrains.com/ruby/) – this is a fully featured Ruby / Rails IDE with autocomplete etc. note this is not an open source product and requires a licence to use. But it does have a trial period.
   - [Atom](https://atom.io/) – an open source text editor built by github – has packages you can install that make Ruby programming easier
-  - [Sublime Text 3](https://www.sublimetext.com/3) - this is another text editor that is widely use and as numerous plugins for Ruby development.
+  - [Sublime Text 3](https://www.sublimetext.com/3) - this is another text editor that is widely used and has numerous plugins for Ruby development.
  
 - Package management in Ruby is done with Ruby Gems.
   - Info on [what gems are and what you can do with them](https://guides.rubygems.org/what-is-a-gem/).
@@ -108,4 +108,3 @@ The aim here is to give you a path you might take to structure your development 
 - A great book on software [design patterns in Ruby](https://www.amazon.co.uk/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452/ref=pd_sim_14_7?_encoding=UTF8&pd_rd_i=0321490452&pd_rd_r=2C15FQME1E5X744FGV1Z&pd_rd_w=h0K0z&pd_rd_wg=RqEfU&psc=1&refRID=2C15FQME1E5X744FGV1Z).
 
  
-
