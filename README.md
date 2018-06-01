@@ -2,7 +2,7 @@
 
 What follows is a list of resources collated into a ‘learning path’ for Developers to upskill in Ruby programming. 
 
-Resources are laid out in steps which follow on from each other. However, it is not meant as a directive to follow exactly in the order laid out here. Similarly, there is no need to go trhough every resource mentioned here. Rather, this is intended as a guide to give you a bit of context as to what recource to look at as you develop more skills. 
+Resources are laid out in steps which follow on from each other. However, it is not meant as a directive to follow exactly in the order laid out here. Similarly, there is no need to go through every resource mentioned here, rather, this is intended as a guide to give you a bit of context to help you choose which resources to look at as you develop more skills. 
 
 The aim here is to give you a path you might take to structure your development as a Ruby programmer. If you’re not feeling some of the resources here then please feel free to replace / supplement them with things from elsewhere.
 
