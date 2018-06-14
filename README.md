@@ -74,6 +74,7 @@ The aim here is to give you a path you might take to structure your development 
   - [RSpec](http://rspec.info/) – the de-facto Ruby testing framework for TDD.
   - [factory_bot](https://github.com/thoughtbot/factory_bot) (Note: until fairly recently this was called _factory_girl_, it is referred to by this name in some of the resources). Can be used to mock objects to create test data in Ruby apps. More info [here](https://semaphoreci.com/community/tutorials/working-effectively-with-data-factories-using-factorybot).
   - [Cucumber](https://cucumber.io/) is a BDD ([Behaviour Driven Development](https://inviqa.com/blog/bdd-guide)) acceptance testing framework you can in conjunction with [Capybara](https://github.com/teamcapybara/capybara) (Think Selenium if you’re from Java) to run automated browser tests. Note: it can be used with selenium if needed see [here](https://github.com/teamcapybara/capybara#drivers). You set up [feature files](https://github.com/cucumber/cucumber/wiki/Feature-Introduction) using the ([Gherkin Language](https://github.com/cucumber/cucumber/wiki/Gherkin)) which is used to describe 'journeys' through you application, which you then test your app against these. Introduction to this kind of testing [here](https://www.youtube.com/watch?v=lC0jzd8sGIA). Some tips on writing better feature files with Gherkin [here](http://www.bbc.co.uk/blogs/internet/entries/ff14236d-098a-3565-b678-ff4ba5776a5f).
+  - a new, and very comprehensive, book on [testing in Rails 5](https://pragprog.com/book/nrtest3/rails-5-test-prescriptions)
 
 ### Step 4: Web frameworks / web programming:
 - [Sinatra](http://sinatrarb.com/) this is a very lightweight web framework that is a good place to start for Ruby web programming.
@@ -89,6 +90,7 @@ The aim here is to give you a path you might take to structure your development 
   - [Pluralsight course](https://app.pluralsight.com/library/courses/ruby-rails-4-getting-started/table-of-contents) on Rails 4 (note this is on a slightly earlier version of Rails but the fundamentals are the same.)
   - Really good [Udemy course](https://www.udemy.com/professional-rails-5-development-course/) (Note have to pay about a £10 to access this course, google for a voucher as the quoted prices are far higher than what you actually need to pay).
   - A comprehensive book on Rails development in [Rails 5](https://pragprog.com/book/rails51/agile-web-development-with-rails-5-1)
+  - [Interesting article](https://www.toptal.com/ruby-on-rails/decoupling-rails-components) on making Rails code [DRYer](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), and more [decoupled](https://softwareengineering.stackexchange.com/questions/244476/what-is-decoupling-and-what-development-areas-can-it-apply-to) with [Plain Old Ruby Objects](http://codesthq.com/blog/2015/hi-im-poro.html).
  
 - [Templating engines](https://en.wikipedia.org/wiki/Web_template_system ) which compile to HTML (basically JSP / JSF if you’re thinking in Java) can be used with Rails or Sinatra if you install the correct gems. Here are two commonly used examples:
   - [Slim](http://slim-lang.com/)
