@@ -84,6 +84,7 @@ The aim here is to give you a path you might take to structure your development 
  
 - [Ruby on Rails](https://rubyonrails.org/) (Rails for short) this is more of a ‘all bells and whistles’ web framework that allows you to develop web apps rapidly. It also has modules for things like [batch jobs](http://guides.rubyonrails.org/active_job_basics.html), [emails](http://guides.rubyonrails.org/action_mailer_basics.html) and [Restful APIs](http://edgeguides.rubyonrails.org/api_app.html).
   - [Railscasts](http://railscasts.com/) on youtube called [Railscasts Reloaded](https://www.youtube.com/user/RailscastsReloaded/videos) though some of the videos here are a few years old it is a great resource, which has short videos that explain very many of the features of Rails in a really accessible way. It is well worth a look, there is also an archive of the videos [here on youtube](https://www.youtube.com/user/RailscastsReloaded/videos).
+  - READ THIS - it's great! https://rubyonrails.org/doctrine/
   - Guide to Installing Rails [here](http://installrails.com/steps/configure_git).
   - Very good and free Rails [tutorial book](https://www.railstutorial.org/book).
   - [Pluralsight course](https://app.pluralsight.com/library/courses/ruby-rails-4-getting-started/table-of-contents) on Rails 4 (note this is on a slightly earlier version of Rails but the fundamentals are the same.)
